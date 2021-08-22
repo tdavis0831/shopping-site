@@ -28,8 +28,8 @@ def read_customers(filepath):
 
 customers_dict = read_customers("customers.txt")
 
-def get_by_email(hat):
+def get_by_email(email):
 
-    print(customers_dict[hat])
+    print(customers_dict[email])
 
 get_by_email("janet@hotmail.com")
